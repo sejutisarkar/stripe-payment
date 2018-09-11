@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import Checkout from './Checkout';
 import './App.css';
-
+import img from './img/pic1.jpg';
 class App extends Component {
   render() {
     return (
@@ -14,7 +14,9 @@ class App extends Component {
         <p className="App-intro">
           <Checkout
            name={'The Payment Gateway'}
-           description={'Sejuti'}
+           description={'Please enter your details'}
+           image={img}
+           zipcode="True"
            amount={100}
           />
         </p>
